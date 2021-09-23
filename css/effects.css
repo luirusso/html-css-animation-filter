@@ -45,3 +45,21 @@
     transition: 2s;
     opacity: 0;
 }
+
+.ex-5-square {
+    margin: 20px;
+    width: 60px;
+    height: 60px;
+    background: red;
+    transition: 2s;
+}
+
+.ex-5-square:hover {
+    transition: 2s;
+    transform: scale(2);
+}
+
+.ex-5-square:active {
+    transition: 2s;
+    transform: scale(.5);
+}
