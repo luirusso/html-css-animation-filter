@@ -21,3 +21,16 @@
     transition: width 2s;
     width: 100%;
 }
+
+.ex-3-square {
+    width: 100px;
+    height: 100px;
+    background: red;
+    transition: 2s;
+}
+
+.ex-3-square:hover {
+    transition: 2s;
+    border-radius: 50%;
+}
+
