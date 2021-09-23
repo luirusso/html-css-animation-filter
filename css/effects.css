@@ -34,3 +34,14 @@
     border-radius: 50%;
 }
 
+.ex-4-square {
+    width: 100px;
+    height: 100px;
+    background: red;
+    transition: 2s;
+}
+
+.ex-4-square:hover {
+    transition: 2s;
+    opacity: 0;
+}
